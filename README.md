@@ -192,19 +192,3 @@ quartus_sh --flow compile lab_04
 ```
 
 O `.sof` por JTAG configura a FPGA de forma volátil. Não é necessário programar memória de configuração persistente para a prática descrita. Os binários antigos do diretório de compilação não são apresentados como resultados de uma nova compilação desta publicação.
-
-## Demonstração e observação
-
-Primeiro, observar a sequência com a placa em posição fixa, verificando que os oito LEDs mudam de estado e que existe um intervalo apagado entre os blocos de nove colunas. Essa observação não deve ser confundida com a formação de uma imagem espacial.
-
-Em uma montagem didática preparada para persistência da visão, estabelecer movimento relativo regular, transversal à fileira de LEDs, e relacionar seu início ao bloco luminoso. Os valores teóricos de 2,62144 ms por coluna e 23,59296 ms para as nove colunas orientam a interpretação. Como não existe referência de posição no circuito, não é possível assegurar alinhamento, orientação ou legibilidade apenas com a programação da FPGA.
-
-Não foram encontradas fotografias ou capturas gráficas da demonstração na pasta local. O diagrama e a matriz desta página explicam a implementação; não são resultados experimentais simulados ou fotografados durante a publicação.
-
-## Preservação e validação
-
-O arquivo preexistente [comprimido/lab_04.7z](comprimido/lab_04.7z) mantém integralmente seu conteúdo. A organização interna de `Texto_Ar/` e os arquivos originais locais permanecem intactos. Os seis espelhos superiores também conservam os mesmos bytes de suas fontes locais.
-
-O [inventário completo](docs/inventario-local.csv) identifica arquivos publicados e intermediários regeneráveis. A [validação](docs/validacao.md) registra a conferência das dependências, da ROM, dos pinos, dos hashes e do conteúdo anterior.
-
-Os relatórios originais registram compilação em **22 de setembro de 2026**, com Fitter concluído, 12 ALMs, 26 registradores e 512 bits de memória. O Timing Analyzer contém folgas negativas; esse histórico não certifica fechamento temporal. **Nenhuma nova compilação, simulação ou demonstração física foi executada na preparação desta publicação**, pois o Quartus e a placa não estavam disponíveis no ambiente utilizado.
