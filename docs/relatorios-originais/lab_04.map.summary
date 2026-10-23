@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Tue Sep 22 17:17:13 2026
+Quartus Prime Version : 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+Revision Name : lab_04
+Top-level Entity Name : lab_04A
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 23
+Total pins : 9
+Total virtual pins : 0
+Total block memory bits : 512
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

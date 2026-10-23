@@ -1,0 +1,10 @@
+# Novos documentos com finais de linha LF.
+*.md text eol=lf
+*.csv text eol=lf
+/.gitattributes text eol=lf
+/.gitignore text eol=lf
+# Conteudos originais e dependencias preservados byte a byte.
+/Texto_Ar/** -text
+/comprimido/** -text
+/docs/relatorios-originais/** -text
+/lab_04* -text
