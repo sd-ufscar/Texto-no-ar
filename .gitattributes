@@ -8,3 +8,6 @@
 /comprimido/** -text
 /docs/relatorios-originais/** -text
 /lab_04* -text
+# Os descritores HDL dos IPs foram gerados pelo Quartus.
+/Texto_Ar/**/*.v linguist-generated
+/lab_04*.v linguist-generated
